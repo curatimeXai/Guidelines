@@ -11,12 +11,12 @@ Git branching conventions, bug reporting, and project board management.
 
 | Section | Topic | Primary Audience |
 | :--- | :--- | :--- |
-| **[1. Traceability & References](docs/workflow/traceability-and-references.md)** | Single source of truth, Issue IDs, and PR linking keywords. | Developers & QA |
-| **[2. Git & Branching Strategy](docs/workflow/git-and-branching.md)** | Branch conventions, pre-flight checks, and PR guidelines. | Developers |
-| **[3. Work Lifecycle & Execution](docs/workflow/work-lifecycle-and-board.md)** | End-to-end task progression (Sprints & Kanban). | All team members |
-| **[4. Board Columns & Definitions](docs/04-board-columns-and-statuses.md)** | Status mapping from Backlog to Done/Invalid. | All team members |
-| **[5. Submitting Work Items](docs/workflow/submitting-work-items.md)** | How to report bugs and create feature requests/tasks. | QA & Developers |
-| **[6. DevOps & Infrastructure](docs/devops/github-actions-runner.md)** | How to report bugs and create feature requests/tasks. | DevOps & Infrastructure admins |
+| **[Traceability & References](docs/workflow/traceability-and-references.md)** | Single source of truth, Issue IDs, and PR linking keywords. | Developers & QA |
+| **[Git & Branching Strategy](docs/workflow/git-and-branching.md)** | Branch conventions, pre-flight checks, and PR guidelines. | Developers |
+| **[Work Lifecycle & Execution](docs/workflow/work-lifecycle-and-board.md)** | End-to-end task progression (Sprints & Kanban). | All team members |
+| **[Board Columns & Definitions](docs/04-board-columns-and-statuses.md)** | Status mapping from Backlog to Done/Invalid. | All team members |
+| **[Submitting Work Items](docs/workflow/submitting-work-items.md)** | How to report bugs and create feature requests/tasks. | QA & Developers |
+| **[DevOps & Infrastructure](docs/devops/github-actions-runner.md)** | How to report bugs and create feature requests/tasks. | DevOps & Infrastructure admins |
 
 ---
 
