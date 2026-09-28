@@ -43,28 +43,8 @@ src/
 
 ---
 
-## 3. Commit Message Standards
 
-Commit messages must be written in the **imperative present tense** (`Add feature`, never `Added feature` or `Adding feature`). This aligns with standard Git conventions and keeps project history clean.
-
-* **Good:** `Add user authentication validation to login route`
-* **Good:** `Fix token expiration edge case on refresh`
-* **Bad:** `Added user authentication`
-* **Bad:** `Fixing some stuff in api`
-
-### Co-Authoring Commits
-When collaborating or pairing on tasks, credit all contributors at the end of the commit body separated by a blank line:
-
-```text
-Add shared date utility functions
-
-Co-authored-by: Intern One <intern.one@example.com>
-Co-authored-by: Intern Two <intern.two@example.com>
-```
-
----
-
-## 4. Comments & Code Structure
+## 3. Comments & Code Structure
 
 Keep source code self-documenting through clear variable and function names. Minimize inline comments—use them strictly to explain **why** a non-obvious choice was made, not **what** the code does.
 
