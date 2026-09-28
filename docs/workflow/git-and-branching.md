@@ -2,6 +2,11 @@
 
 ---
 
+### **Single Source of Truth**
+Never create or track manual IDs. Every task, feature, enhancement, and defect is tracked exclusively by its GitHub Issue number (e.g., #182).
+
+---
+
 ### **Branch Naming Standard** 
 Always branch off `main/master` (or the repository's designated default branch) using structured prefixes:
   - Features: `feature/#<id>-short-description` (e.g., `feature/#182-new-login-ui`)
@@ -10,16 +15,33 @@ Always branch off `main/master` (or the repository's designated default branch) 
 
 ---
 
+### **Commit Message Standards**
+Commit messages must be written in the imperative present tense and always reference the issue ID using Conventional Commits format:
+
+    Format: (#): 
+
+    Examples:
+
+        feat(#183): implement dark mode toggle
+
+        fix(#182): resolve sqlite dialect compatibility in /db-check
+
+        chore(#184): update documentation and badges
+
+---
+
 ### **Local Pre-Flight Checks**
 Run test suites, type-checkers, and linters locally before pushing changes.
 
 ---
 
-### **Pull Request Protocol**
-  - Summarize the architectural or functional change.
-  - Provide step-by-step verification instructions (how to run, reproduce, or inspect the change in local or staging environments).
-  - Link the issue using `Closes #<id>` or `Fixes #<id>`.
-  - Request at least one peer code review.
+### **Pull Request Protocol & Automated Closure**
+  - **PR Description** 
+  Summarize architectural or functional changes and provide step-by-step verification instructions.
+  - **Link the Issue** 
+  Always link the issue directly using GitHub closing keywords (e.g., Closes #182, Fixes #182) to guarantee the issue closes automatically upon merge.
+  - **Code Review** 
+  Request at least one peer review.
 
 ---
 
