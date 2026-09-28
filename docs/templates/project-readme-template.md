@@ -1,4 +1,4 @@
-![MLThrive Logo](../docs/design/images/logoHigh.svg)
+![MLThrive Logo](../design/images/logoHigh.svg)
 
 # Project Documentation Template
 
