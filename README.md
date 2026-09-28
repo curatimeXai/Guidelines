@@ -16,6 +16,7 @@ Git branching conventions, bug reporting, and project board management.
 | **[3. Work Lifecycle & Execution](docs/03-work-lifecycle-and-board.md)** | End-to-end task progression (Sprints & Kanban). | All team members |
 | **[4. Board Columns & Definitions](docs/04-board-columns-and-statuses.md)** | Status mapping from Backlog to Done/Invalid. | All team members |
 | **[5. Submitting Work Items](docs/05-submitting-work-items.md)** | How to report bugs and create feature requests/tasks. | QA & Developers |
+| **[6. DevOps & Infrastructure](docs/devops/github-actions-runner-setup.md)** | How to report bugs and create feature requests/tasks. | DevOps & Infrastructure admins |
 
 ---
 
