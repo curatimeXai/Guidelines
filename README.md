@@ -11,12 +11,14 @@ Git branching conventions, bug reporting, and project board management.
 
 | Section | Topic | Primary Audience |
 | :--- | :--- | :--- |
-| **[Traceability & References](docs/workflow/traceability-and-references.md)** | Single source of truth, Issue IDs, and PR linking keywords. | Developers & QA |
-| **[Git & Branching Strategy](docs/workflow/git-and-branching.md)** | Branch conventions, pre-flight checks, and PR guidelines. | Developers |
-| **[Work Lifecycle & Execution](docs/workflow/work-lifecycle-and-board.md)** | End-to-end task progression (Sprints & Kanban). | All team members |
-| **[Board Columns & Definitions](docs/04-board-columns-and-statuses.md)** | Status mapping from Backlog to Done/Invalid. | All team members |
-| **[Submitting Work Items](docs/workflow/submitting-work-items.md)** | How to report bugs and create feature requests/tasks. | QA & Developers |
-| **[DevOps & Infrastructure](docs/devops/github-actions-runner.md)** | How to report bugs and create feature requests/tasks. | DevOps & Infrastructure admins |
+| **[Git & Branching](docs/workflow/git-and-branching.md)** | Branch conventions, commit standards, and PR workflows. | All Developers |
+| **[Work Lifecycle & Board](docs/workflow/work-lifecycle-and-board.md)** | Task flow across board columns from Backlog to Done. | All Team Members |
+| **[Submitting Work Items](docs/workflow/submitting-work-items.md)** | Guidelines for logging bugs, tasks, and feature requests. | QA & Developers |
+| **[Coding Standards](docs/standards/coding-standards.md)** | Function naming, clean architecture, and modular code rules. | Developers |
+| **[Development Tools](docs/standards/development-tools.md)** | Recommended VS Code extensions and Live Share pairing. | All Team Members |
+| **[Graphic Profile](docs/design/graphic-profile.md)** | Official typography, brand colors, and UI theme assets. | Frontend & Design |
+| **[DevOps & Server Access](docs/devops/ssh-backend-access.md)** | SSH backend access, key setup, and [GitHub Runner setup](docs/devops/github-actions-runner.md). | Backend & DevOps |
+| **[Project Template](docs/templates/project-readme-template.md)** | Standard README documentation template for new services. | Project Leads & Devs |
 
 ---
 
