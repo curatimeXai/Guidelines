@@ -1,0 +1,73 @@
+name: Feature Request
+description: Suggest an idea or enhancement for this project
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new feature!
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Provide a clear and concise summary of the requested feature.
+      placeholder: Briefly describe what needs to be added or changed...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which part of the system does this feature affect?
+      options:
+        - Backend / API
+        - Database
+        - Frontend / UI
+        - Authentication & Security
+        - Testing / CI/CD
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Problem / Motivation
+      description: What problem does this solve, or what use case does it enable?
+      placeholder: Explain why this feature is needed and who benefits from it...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how you envision this being implemented (if you have ideas or technical suggestions).
+      placeholder: Outline your proposed implementation, architecture, or endpoints...
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List the conditions that must be met for this feature to be considered complete.
+      value: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+        - [ ] Criterion 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context / References
+      description: Add any mockups, screenshots, related issues, or external documentation links.
+      placeholder: Links, screenshots, or extra details...
+    validations:
+      required: false

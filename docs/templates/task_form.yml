@@ -1,0 +1,75 @@
+name: Task
+description: Track internal development tasks, chores, refactoring, or maintenance work
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for maintenance, technical debt, documentation updates, or internal setup tasks.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Provide a clear summary of what needs to be done.
+      placeholder: Describe the task and its objective...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which area does this task target?
+      options:
+        - Documentation
+        - Backend / API
+        - Database / Migrations
+        - Frontend / UI
+        - Testing / QA
+        - DevOps / CI/CD
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: context_motivation
+    attributes:
+      label: Context & Motivation
+      description: Why does this task need to be completed now?
+      placeholder: Explain what prompted this task or what friction it eliminates...
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation_steps
+    attributes:
+      label: Implementation Steps / Subtasks
+      description: List specific subtasks or steps required to complete this task.
+      value: |
+        - [ ] Step 1
+        - [ ] Step 2
+        - [ ] Step 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Define how this task will be verified when finished.
+      value: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Additional Notes / References
+      description: Include any relevant files, screenshots, or related links.
+      placeholder: Links to related files, PRs, or docs...
+    validations:
+      required: false
