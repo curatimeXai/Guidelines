@@ -28,12 +28,6 @@ Git branching conventions, bug reporting, and project board management.
 
 ---
 
-## Getting Started
-
-1. **Working on a task?** Review [Git & Branching Strategy](docs/workflow/git-and-branching.md) for branch naming conventions.
-2. **Reporting an issue?** Check [Submitting Work Items](docs/workflow/submitting-work-items.md) to ensure mandatory fields are filled out.
-3. **Updating the board?** Consult [Board Columns & Definitions](docs/04-board-columns-and-statuses.md) for column transition rules.
----
 
 
 For any questions, feel free to open an issue or contact the project coordinator.
