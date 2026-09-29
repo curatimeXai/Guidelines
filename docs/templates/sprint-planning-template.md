@@ -22,7 +22,7 @@
 
 ## 👥 Capacity & Availability
 
-| Name | Role | Availability (Days / %) | Notes / Out of Office |
+| Name | Role | Availability | Notes / Out of Office |
 | :--- | :--- | :--- | :--- |
 | [Tester 1] | QA / Tester | 100% | |
 | [Developer 1] | Backend Dev | 100% | |
