@@ -9,16 +9,13 @@ Git branching conventions, bug reporting, and project board management.
 
 ## Quick Navigation
 
-| Section | Topic | Primary Audience |
+| Section | Key Topics & Documents | Primary Audience |
 | :--- | :--- | :--- |
-| **[Git & Branching](docs/workflow/git-and-branching.md)** | Branch conventions, commit standards, and PR workflows. | All Developers |
-| **[Work Lifecycle & Board](docs/workflow/work-lifecycle-and-board.md)** | Task flow across board columns from Backlog to Done. | All Team Members |
-| **[Submitting Work Items](docs/workflow/submitting-work-items.md)** | Guidelines for logging bugs, tasks, and feature requests. | QA & Developers |
-| **[Coding Standards](docs/standards/coding-standards.md)** | Function naming, clean architecture, and modular code rules. | Developers |
-| **[Development Tools](docs/standards/development-tools.md)** | Recommended VS Code extensions and Live Share pairing. | All Team Members |
-| **[Graphic Profile](docs/design/graphic-profile.md)** | Official typography, brand colors, and UI theme assets. | Frontend & Design |
-| **[DevOps & Server Access](docs/devops/ssh-backend-access.md)** | SSH backend access, key setup, and [GitHub Runner setup](docs/devops/github-actions-runner.md). | Backend & DevOps |
-| **[Project Template](docs/templates/project-readme-template.md)** | Standard README documentation template for new services. | Project Leads & Devs |
+| **[Workflow](docs/workflow/)** | [Git & Branching](docs/workflow/git-and-branching.md), [Board Lifecycle](docs/workflow/work-lifecycle-and-board.md), and [Submitting Work](docs/workflow/submitting-work-items.md). | All Team Members |
+| **[Standards](docs/standards/)** | [Coding Standards](docs/standards/coding-standards.md) and [Development Tools / Live Share](docs/standards/development-tools.md). | Developers |
+| **[Design](docs/design/)** | [Graphic Profile](docs/design/graphic-profile.md), typography, brand colors, and assets. | Frontend & UI/UX |
+| **[DevOps](docs/devops/)** | [SSH Backend Access](docs/devops/ssh-backend-access.md) and [GitHub Actions Runner](docs/devops/github-actions-runner.md). | Backend & DevOps |
+| **[Templates](docs/templates/)** | [Project README](docs/templates/project-readme-template.md), [Sprint Planning](docs/templates/sprint-planning-template.md), and Issue forms (bug, feature, task). | All Team Members |
 
 ---
 
