@@ -21,6 +21,7 @@
 ---
 
 ## 👥 Capacity & Availability
+
 | Name | Role | Availability (Days / %) | Notes / Out of Office |
 | :--- | :--- | :--- | :--- |
 | [Tester 1] | QA / Tester | 100% | |
