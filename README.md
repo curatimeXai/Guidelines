@@ -11,11 +11,10 @@ Git branching conventions, bug reporting, and project board management.
 
 | Section | Key Topics & Documents | Primary Audience |
 | :--- | :--- | :--- |
-| **[Workflow](docs/workflow/)** | [Git & Branching](docs/workflow/git-and-branching.md), [Board Lifecycle](docs/workflow/work-lifecycle-and-board.md), and [Submitting Work](docs/workflow/submitting-work-items.md). | All Team Members |
+| **[Workflow](docs/workflow/)** | [Git & Branching](docs/workflow/git-and-branching.md), [Board Lifecycle](docs/workflow/work-lifecycle-and-board.md), [Submitting Work](docs/workflow/submitting-work-items.md) and [QA Test Strategy](docs/workflow/qa-test-strategy.md). | All Team Members |
 | **[Standards](docs/standards/)** | [Coding Standards](docs/standards/coding-standards.md) and [Development Tools / Live Share](docs/standards/development-tools.md). | Developers |
 | **[Design](docs/design/)** | [Graphic Profile](docs/design/graphic-profile.md), typography, brand colors, and assets. | Frontend & UI/UX |
 | **[DevOps](docs/devops/)** | [SSH Backend Access](docs/devops/ssh-backend-access.md) and [GitHub Actions Runner](docs/devops/github-actions-runner.md). | Backend & DevOps |
-| [QA Test Strategy](docs/workflow/qa-test-strategy.md) | Quality assurance tiers, verification lifecycle, and DoD | QA |
 | **[Templates](docs/templates/)** | [Project README](docs/templates/project-readme-template.md), [Sprint Planning](docs/templates/sprint-planning-template.md), and Issue forms (bug, feature, task). | All Team Members |
 
 ---
