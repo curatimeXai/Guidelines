@@ -4,7 +4,7 @@
 
 ---
 
-## 1. Objectives & Scope
+## Objectives & Scope
 
 The purpose of this strategy is to establish a unified QA standard across the engineering team, streamline onboarding, prevent issues from being closed prematurely without QA validation, and maintain high release confidence.
 
@@ -12,7 +12,7 @@ Every feature, bug fix, and configuration change targeted for merge into `master
 
 ---
 
-## 2. Testing Tiers & Coverage
+## Testing Tiers & Coverage
 
 Testing is categorized into three sequential tiers to provide broad coverage while preserving fast feedback loops:
 
@@ -24,7 +24,7 @@ Testing is categorized into three sequential tiers to provide broad coverage whi
 
 ---
 
-## 3. Bug Verification Lifecycle
+## Bug Verification Lifecycle
 
 All bug reports and feature tasks follow a structured status transition across the project board to prevent unverified closures:
 
@@ -56,7 +56,7 @@ All bug reports and feature tasks follow a structured status transition across t
 
 ---
 
-## 4. Pull Request & Definition of Done (DoD) Alignment
+## Pull Request & Definition of Done (DoD) Alignment
 
 An issue or PR is formally considered **Done** only when all the following criteria are met:
 
