@@ -69,9 +69,3 @@ An issue or PR is formally considered **Done** only when all the following crite
 - [ ] **Documentation Updated:** Technical guides, architectural changes, or new endpoints are reflected in `docs/`.
 
 ---
-
-## 5. Related Guidelines & Workflows
-
-- Project board and issue lifecycle: [`work-lifecycle-and-board.md`](work-lifecycle-and-board.md)
-- Git branching standards: [`git-and-branching.md`](git-and-branching.md)
-- Submitting work items: [`submitting-work-items.md`](submitting-work-items.md)
