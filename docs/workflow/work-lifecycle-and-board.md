@@ -3,24 +3,24 @@
 
 ---
 
-### **Backlog / Prioritization**
+## **Backlog / Prioritization**
 - All triaged tasks and defect reports enter `Backlog`.
 - Project leads, product owners, or team members continuously order items by business priority.
 
 ---
 
-### **Committing to Work (Ready)**
+## **Committing to Work (Ready)**
 - Items move from `Backlog` to `Ready` once specifications, reproduction steps, or acceptance criteria are clear.
 - In iterative projects, `Ready` reflects the committed scope for the cycle. In continuous delivery projects, `Ready` serves as the prioritized next-up queue.
 
 ---
 
-### **Active Development**  
+## **Active Development**  
 Assign yourself (`Assignee`), update the item to `In Progress`, and open a corresponding branch.
 
 ---
 
-### **Review & Verification**
+## **Review & Verification**
 - Pull Request
   *Open a PR, link the issue, and transition the item to `In Review`.*
 - Peer Review
@@ -35,12 +35,12 @@ Assign yourself (`Assignee`), update the item to `In Progress`, and open a corre
 
 ---
 
-### **Invalid / Superseded Items**
+## **Invalid / Superseded Items**
 Items identified as duplicate, unreproducible, obsolete, or functioning as designed move to Invalid and are closed with an explanatory rationale.
 
 ---
 
-# Board Columns & Status Definitions
+## Board Columns & Status Definitions
 
 | **COLUMN** | **DESCRIPTION & WORKFLOW ROLE** |
 | :--- | :--- |
