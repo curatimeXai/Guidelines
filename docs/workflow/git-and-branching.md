@@ -18,7 +18,7 @@ Always branch off `main`/`master` (or the repository's designated default branch
 | `docs/` | `docs:` | Documentation updates only | `docs/#184-qa-test-strategy` |
 | `refactor/` | `refactor:` | Code restructuring without feature changes | `refactor/#190-auth-service` |
 | `style/` | `style:` | CSS, styling, or UI adjustments | `style/#195-button-spacing` |
-| `chore/` | `chore:` | Build configs, CI/CD, or dependencies | `chore/#201-bump-deps` |
+| `task/` | `task:` | Build configs, CI/CD, or dependencies | `task/#201-bump-deps` |
 
 #### Format Rules:
 * Use lowercase letters and kebab-case for the description (`just-like-this`).
