@@ -38,7 +38,7 @@ Commit messages must be written in the imperative present tense and always refer
 
         fix(#182): resolve sqlite dialect compatibility in /db-check
 
-        chore(#184): update documentation and badges
+        task(#184): update documentation and badges
 
 ---
 
